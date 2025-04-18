@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Streamlit app"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["streamlit", "pandas", "openpyxl", "xlsxwriter"]
 
 [tool.poetry]
 package-mode = false
